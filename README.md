@@ -30,6 +30,8 @@ It validates login and logout behavior on a public practice website.
 ## Setup
 Install project dependencies:
 
+cmd
+
     npm ci
 
 Install Playwright browsers if needed:
