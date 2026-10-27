@@ -22,42 +22,54 @@ It validates login and logout behavior on a public practice website.
 - Positive and negative test scenarios
 - URL and page-heading verification
 - Cross-browser testing
-- Test setup with beforeEach()
-- Test organization with describe()
+- Test setup with `beforeEach()`
+- Test organization with `describe()`
 - HTML reports and failure debugging
 - Screenshots and Trace Viewer
 
 ## Setup
+
 Install project dependencies:
 
-cmd
-
-    npm ci
+```cmd
+npm ci
+```
 
 Install Playwright browsers if needed:
 
-    npx playwright install
+```cmd
+npx playwright install
+```
 
 ## Run Login Tests
+
 Run the login tests in all configured browsers:
 
-    npx playwright test tests/login.spec.js --workers=1
+```cmd
+npx playwright test tests/login.spec.js --workers=1
+```
 
 Run only Chromium:
 
-    npx playwright test tests/login.spec.js --project=chromium --workers=1
+```cmd
+npx playwright test tests/login.spec.js --project=chromium --workers=1
+```
 
 Run the complete test suite:
 
-    npx playwright test --workers=1
+```cmd
+npx playwright test --workers=1
+```
 
 ## View the HTML Report
 
-    npx playwright show-report
+```cmd
+npx playwright show-report
+```
 
 ## Learning Outcomes
 This project demonstrates the fundamentals of writing,
 running, and debugging browser-based automated tests.
 
-Note: This project uses a public practice website and is
+**Note:** This project uses a public practice website and is
 intended for learning and portfolio demonstration.
