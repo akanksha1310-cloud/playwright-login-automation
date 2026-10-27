@@ -1,4 +1,3 @@
-
 # Playwright Login Automation
 
 ## Project Overview
@@ -22,8 +21,8 @@ An end-to-end web testing project using Playwright and JavaScript. It validates 
 - Positive and negative test scenarios
 - URL and page-heading verification
 - Cross-browser testing
-- Test setup with `beforeEach()`
-- Test organization with `describe()`
+- Test setup with beforeEach()
+- Test organization with describe()
 - HTML reports and failure debugging
 - Screenshots and Trace Viewer
 
@@ -31,43 +30,31 @@ An end-to-end web testing project using Playwright and JavaScript. It validates 
 
 Install project dependencies:
 
-```cmd
-npm ci
-```
+    npm ci
 
 Install Playwright browsers if needed:
 
-```cmd
-npx playwright install
-```
+    npx playwright install
 
 ## Run Login Tests
 
 Run the login tests in all configured browsers:
 
-```cmd
-npx playwright test tests/login.spec.js --workers=1
-```
+    npx playwright test tests/login.spec.js --workers=1
 
 Run only Chromium:
 
-```cmd
-npx playwright test tests/login.spec.js --project=chromium --workers=1
-```
+    npx playwright test tests/login.spec.js --project=chromium --workers=1
 
 Run the complete test suite:
 
-```cmd
-npx playwright test --workers=1
-```
+    npx playwright test --workers=1
 
 ## View the HTML Report
 
-```cmd
-npx playwright show-report
-```
+    npx playwright show-report
 
 ## Learning Outcomes
 This project demonstrates the fundamentals of writing, running, and debugging browser-based automated tests.
 
-**Note:** This project uses a public practice website and is intended for learning and portfolio demonstration.
+Note: This project uses a public practice website and is intended for learning and portfolio demonstration.
