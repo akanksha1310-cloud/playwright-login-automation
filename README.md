@@ -27,19 +27,18 @@ An end-to-end web testing project using Playwright and JavaScript. It validates 
 - HTML reports and failure debugging
 - Screenshots and Trace Viewer
 
+
 ## Setup
+
 - Install dependencies: `npm ci`
-- Install Playwright browsers: `npx playwright install`
+- Install Playwright browsers if needed: `npx playwright install`
 
 ## Run Login Tests
+
 - All configured browsers: `npx playwright test tests/login.spec.js --workers=1`
 - Chromium only: `npx playwright test tests/login.spec.js --project=chromium --workers=1`
 - Complete test suite: `npx playwright test --workers=1`
 
 ## View the HTML Report
+
 Run `npx playwright show-report`.
-
-## Learning Outcomes
-This project demonstrates the fundamentals of writing, running, and debugging browser-based automated tests.
-
-**Note:** This project uses a public practice website and is intended for learning and portfolio demonstration.
