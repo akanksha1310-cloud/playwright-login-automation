@@ -31,29 +31,41 @@ An end-to-end web testing project using Playwright and JavaScript. It validates 
 
 Install project dependencies:
 
-    npm ci
+```cmd
+npm ci
+```
 
 Install Playwright browsers if needed:
 
-    npx playwright install
+```cmd
+npx playwright install
+```
 
 ## Run Login Tests
 
 Run the login tests in all configured browsers:
 
-    npx playwright test tests/login.spec.js --workers=1
+```cmd
+npx playwright test tests/login.spec.js --workers=1
+```
 
 Run only Chromium:
 
-    npx playwright test tests/login.spec.js --project=chromium --workers=1
+```cmd
+npx playwright test tests/login.spec.js --project=chromium --workers=1
+```
 
 Run the complete test suite:
 
-    npx playwright test --workers=1
+```cmd
+npx playwright test --workers=1
+```
 
 ## View the HTML Report
 
-    npx playwright show-report
+```cmd
+npx playwright show-report
+```
 
 ## Learning Outcomes
 This project demonstrates the fundamentals of writing, running, and debugging browser-based automated tests.
